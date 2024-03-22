@@ -3,13 +3,13 @@
 Seek amplicons from high throughput sequencing data
 
 Latest Release:
-* Github: v0.0.2.dev10
+* Github: v3
 
 ### How to download? ###
 
 Download the package using git clone or using the "download" link.
 ```
-git clone https://github.com/mthjwu/ask
+git clone https://github.com/nanawei11/Ask
 ```
 
 ### Software dependencies ###
@@ -43,7 +43,7 @@ Now, you are ready to run ask
 ### How to run from bam file? ###
 * run ask from sorted, deduplicated bam files with index file in the same folder (see below for how to generate such bam file)
 ```
-<ask_dir>/ask/ask_cmd.py -i test.bam -o test_ask/test -g hg19
+<ask_dir>/ask/ask_cmd.py -i test.bam -o test_ask/test -g hg38
 ```
 
 ### How to prepare bam file? ###
